@@ -4,5 +4,9 @@ namespace Puratos_Domain
 {
     public class Business
     {
+        public Business()
+        {
+
+        }
     }
 }
