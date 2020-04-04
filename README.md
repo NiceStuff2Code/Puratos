@@ -5,4 +5,6 @@ information about Puratos application
 1. Puratos-Domain: Business laag
 2. Puratos-UI: Presentatielaag
 
-'met daarbij de portabel, Android, IOS en UWP projecten.'
+__**Met daarbij de portabel, Android, IOS en UWP projecten.**__
+
+
