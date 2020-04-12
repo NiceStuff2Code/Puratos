@@ -5,7 +5,7 @@ using System.Text;
 namespace Puratos_Domain
 {
     //helip class for ListView in ....Page.xaml
-    class Product
+    public class Product
     {
         //product properties
         public string NaamProduct { get; set; }
