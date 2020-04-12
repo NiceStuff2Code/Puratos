@@ -5,25 +5,25 @@ using Xamarin.Forms.Maps; //Google Maps API specific code
 
 namespace Puratos_Domain
 {
-    class Location
+    public class Location
     {
         //private fields
-        private Map map;
-        private List<Pin> pins;
+        private Map _map;
+        private List<Pin> _pins;
 
         //default constructor with option for maptype
         public Location(MapType typeMap)
         {
-            map = new Map();
-            pins = new List<Pin>();
-            map.MapType = typeMap; //type van map
+            _map = new Map();
+            _pins = new List<Pin>();
+            _map.MapType = typeMap; //type van map
         }
 
         //default constructor without option for maptype
         public Location()
         {
-            map = new Map();
-            pins = new List<Pin>();
+            _map = new Map();
+            _pins = new List<Pin>();
         }
 
         //set the position of the current map
@@ -31,7 +31,7 @@ namespace Puratos_Domain
         {
             Position pos = new Position(latitude, longitude);
             MapSpan mapSpan = new MapSpan(pos, 0.01, 0.01);
-            map.MoveToRegion(mapSpan);
+            _map.MoveToRegion(mapSpan);
         }
 
         //create a pin, can call multiple times for multiple location to pin.
@@ -51,15 +51,15 @@ namespace Puratos_Domain
             pin.Type = PinType.Place;
             pin.Position = pos;
 
-            map.Pins.Add(pin);
-            pins.Add(pin); //add pin to a list to manage later.
+            _map.Pins.Add(pin);
+            _pins.Add(pin); //add pin to a list to manage later.
 
         }
 
         //return the map obj.
         public Map getMap()
         {
-            return map;
+            return _map;
         }
     }
 }
