@@ -21,10 +21,12 @@ namespace Puratos_UI
 
         protected override void OnSleep()
         {
+
         }
 
         protected override void OnResume()
         {
+
         }
     }
 }
