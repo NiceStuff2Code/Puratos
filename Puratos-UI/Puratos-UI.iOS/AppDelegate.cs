@@ -23,6 +23,7 @@ namespace Puratos_UI.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            Xamarin.FormsMaps.Init(); //methode to initalise the Xamarin.Forms.Maps library for IOS
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

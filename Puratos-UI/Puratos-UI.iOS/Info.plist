@@ -34,5 +34,11 @@
     <string>Puratos_UI</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Mag Puratos uw locatie te allen tijde gebruiken?</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Mag Puratos uw locatie gebruiken wanneer deze applicatie wordt gebruikt?</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Mag Puratos uw locatie te allen tijde gebruiken?</string>
 </dict>
 </plist>
