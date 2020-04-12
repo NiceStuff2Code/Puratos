@@ -23,6 +23,5 @@ namespace Puratos_Domain
         {
             return NaamProduct;
         }
-
     }
 }
