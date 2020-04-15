@@ -19,4 +19,16 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Puratos-Domain\Puratos-Domain.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Producten.xaml.cs">
+      <DependentUpon>Producten.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Producten.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
