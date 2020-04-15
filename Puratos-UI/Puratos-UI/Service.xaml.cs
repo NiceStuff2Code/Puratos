@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Puratos-UI
+namespace Puratos_UI
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-public partial class Page1 : ContentPage
+public partial class Service : ContentPage
 {
-    public Page1()
+    public Service()
     {
         InitializeComponent();
     }
