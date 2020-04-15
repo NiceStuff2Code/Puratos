@@ -15,7 +15,6 @@
                 <Image Source="Puratos.png" HeightRequest="{OnPlatform iOS=90, Android=60}" Margin="0"/>
                 
                 
-
                 <!--Ik wou hier dus een list plaatsen ma kwni hoe ale kheb op internet gekeken ma ze geven altijd dingens da hierin ni kloppen-->
             </StackLayout>
         </Grid>

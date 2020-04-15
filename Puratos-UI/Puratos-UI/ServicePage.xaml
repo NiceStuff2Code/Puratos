@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Puratos_UI.Service"
+            BackgroundColor="#edd78e">
+    
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout>
+                <Image Source="Puratos.png" />
+                <!-- link van foto hierboven moet in de plaats komen dan hieronder -->
+                
+
+                <Label Text="Contact us" FontSize="30" TextColor="Black" TextDecorations="Underline"/>
+                <Label Text="TEL: +32 2 481 44 44" FontSize="20" TextColor="#ED9519"/>
+                <Label Text="FAX: +32 2 466 25 81" FontSize="20" TextColor="#FFF0C855"/>
+                <Label Text="E-MAIL: info@puratos.com" FontSize="20" TextColor="#ED9519"/>
+
+
+                <WebView Source="https://www.puratos.com/contact-us"/>
+            </StackLayout>
+        </Grid>
+        <!-- Als pagina achtergrond wou ik paard van Puratos zetten maar da ga ni er is een probleem met images -->
+        <!--Ik heb echt geen inspiratie meer haha sorry-->
+    </ContentPage.Content>
+</ContentPage>
