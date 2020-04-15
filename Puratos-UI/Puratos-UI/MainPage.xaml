@@ -25,15 +25,19 @@
             emoji een bepaalde kleur en groote geven als je dat zou willen?-->
             
             <Button x:Name="btnProducten" Text="Producten 🍫" BackgroundColor="#ED9519" 
-                    WidthRequest="190" HeightRequest="250" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0"/>
+                    WidthRequest="190" HeightRequest="250" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0"
+                    Clicked="btnProducten_Clicked"/>
             <Button x:Name="btnLocatie" Text="Locatie 📍" BackgroundColor="#FFF0C855" WidthRequest="190" HeightRequest="250"
-                    HorizontalOptions="Start" Grid.Column="0" Grid.Row="1"/>
+                    HorizontalOptions="Start" Grid.Column="0" Grid.Row="1"
+                    Clicked="btnLocatie_Clicked"/>
 
             <Button x:Name="btnBestellingen" Text="Bestellingen 👛" HorizontalOptions="End" VerticalOptions="Start"  
                     BackgroundColor="#F0C855" WidthRequest="190" HeightRequest="250"
-                    Grid.Column="1" Grid.Row="0"/>
+                    Grid.Column="1" Grid.Row="0"
+                    Clicked="btnBestellingen_Clicked"/>
             <Button x:Name="btnService" Text="Service ✆" HorizontalOptions="End" VerticalOptions="End"  BackgroundColor="#FFED9519"
-                    WidthRequest="190" HeightRequest="250" Grid.Column="1" Grid.Row="1"/>
+                    WidthRequest="190" HeightRequest="250" Grid.Column="1" Grid.Row="1"
+                    Clicked="btnService_Clicked"/>
         </Grid>
         <Label Text="Made by Ines Baba, Mathias Bolle and Noa Hermé" FontSize="Subtitle" TextColor="Gray" VerticalOptions="EndAndExpand" />
     </StackLayout>
