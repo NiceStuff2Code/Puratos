@@ -15,6 +15,7 @@ namespace Puratos_UI
         private Business _business; //business class
         public MainPage()
         {
+            NavigationPage.SetHasNavigationBar(this, false); //remove the bottem bar by the beginning of the screen
             InitializeComponent();
             _business = new Business(); //make a instance
         }
