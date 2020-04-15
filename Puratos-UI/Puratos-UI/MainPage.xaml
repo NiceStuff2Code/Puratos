@@ -6,11 +6,24 @@
              mc:Ignorable="d"
              x:Class="Puratos_UI.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Hallo" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid>
+        <StackLayout>
+            <Image Source="https://www.legendre.be/wp-content/uploads/2019/06/puratos.png" />
+            <!-- link van foto hierboven moet in de plaats komen dan hieronder -->
+            <Label Text="Puratos foto" TextColor="Orange" FontSize="50" HorizontalTextAlignment="Center"/>
 
+            <Button x:Name="btnProducten" Text="Producten 🍫" BackgroundColor="#ED9519" WidthRequest="190" HeightRequest="250" HorizontalOptions="Start"/>
+            <Button x:Name="btnLocatie" Text="Locatie 📍" BackgroundColor="#FFF0C855" WidthRequest="190" HeightRequest="250" HorizontalOptions="Start"/>
+        </StackLayout>
+        <d:StackLayout>
+            <Image Source="https://www.legendre.be/wp-content/uploads/2019/06/puratos.png" />
+            <!-- link van foto hierboven moet in de plaats komen dan hieronder -->
+            <Label Text="Puratos foto" TextColor="Orange" FontSize="50" HorizontalTextAlignment="Center"/>
+            
+            <!-- Geen idee hoe je de twee op zelfde hoogte zet -->
+            <Button x:Name="btnBestellingen" Text="Bestellingen 👛" HorizontalOptions="End" VerticalOptions="Start"  BackgroundColor="#F0C855" WidthRequest="190" HeightRequest="250"/>
+            <Button x:Name="btnService" Text="Service ✆" HorizontalOptions="End" VerticalOptions="End"  BackgroundColor="#FFED9519" WidthRequest="190" HeightRequest="250"/>
+        </d:StackLayout>
+        <Label Text="Made by Ines Baba, Mathias Bolle and Noa Hermé" VerticalOptions="End" FontSize="Subtitle" TextColor="Gray"/>
+    </Grid>
 </ContentPage>

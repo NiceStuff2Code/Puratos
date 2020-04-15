@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Puratos-UI.Page1">
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout>
+                <Image Source="https://www.legendre.be/wp-content/uploads/2019/06/puratos.png" />
+                <!-- link van foto hierboven moet in de plaats komen dan hieronder -->
+                <Label Text="Puratos foto" TextColor="Orange" FontSize="50" HorizontalTextAlignment="Center"/>
+
+                <!--Ik wou hier dus een list plaatsen ma kwni hoe ale kheb op internet gekeken ma ze geven altijd dingens da hierin ni kloppen-->
+            </StackLayout>
+        </Grid>
+       
+    </ContentPage.Content>
+</ContentPage>

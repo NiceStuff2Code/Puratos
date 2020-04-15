@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puratos-Domain", "Puratos-Domain\Puratos-Domain.csproj", "{3F03F208-AA2D-415C-9174-A31B91F2E24B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Puratos-Domain", "Puratos-Domain\Puratos-Domain.csproj", "{3F03F208-AA2D-415C-9174-A31B91F2E24B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puratos-UI.UWP", "Puratos-UI\Puratos-UI.UWP\Puratos-UI.UWP.csproj", "{B65D1232-8446-46F9-B950-6021B68ABF14}"
 EndProject
@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puratos-UI.Android", "Purat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puratos-UI.iOS", "Puratos-UI\Puratos-UI.iOS\Puratos-UI.iOS.csproj", "{ABB46D92-EBAB-4A6E-A24A-5E1BB0C3C51B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puratos-UI", "Puratos-UI\Puratos-UI\Puratos-UI.csproj", "{8BF4CDFD-1D52-4B94-AD27-CB1E359C0672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Puratos-UI", "Puratos-UI\Puratos-UI\Puratos-UI.csproj", "{8BF4CDFD-1D52-4B94-AD27-CB1E359C0672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{354782F2-1FA8-4CFD-858F-9245D69DC380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
