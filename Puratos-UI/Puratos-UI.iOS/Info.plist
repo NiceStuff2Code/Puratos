@@ -2,37 +2,43 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIDeviceFamily</key>
-	<array>
-		<integer>1</integer>
-		<integer>2</integer>
-	</array>
-	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>MinimumOSVersion</key>
-	<string>8.0</string>
-	<key>CFBundleDisplayName</key>
-	<string>Puratos_UI</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.companyname.Puratos_UI</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
-	<key>CFBundleName</key>
-	<string>Puratos_UI</string>
-	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcon.appiconset</string>
+    <key>UIDeviceFamily</key>
+    <array>
+        <integer>1</integer>
+        <integer>2</integer>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>MinimumOSVersion</key>
+    <string>8.0</string>
+    <key>CFBundleDisplayName</key>
+    <string>Puratos_UI</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.companyname.Puratos_UI</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>CFBundleName</key>
+    <string>Puratos_UI</string>
+    <key>XSAppIconAssets</key>
+    <string>Assets.xcassets/AppIcon.appiconset</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Mag Puratos uw locatie te allen tijde gebruiken?</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Mag Puratos uw locatie gebruiken wanneer deze applicatie wordt gebruikt?</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Mag Puratos uw locatie te allen tijde gebruiken?</string>
 </dict>
 </plist>

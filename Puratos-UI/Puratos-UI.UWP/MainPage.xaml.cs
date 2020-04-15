@@ -21,6 +21,8 @@ namespace Puratos_UI.UWP
         {
             this.InitializeComponent();
 
+            //methode to initalise the Xamarin.Forms.Maps library for UWP
+            Xamarin.FormsMaps.Init("ZFXK30mtfx07CUrgz2eV~I47UbjRvkThUA-ovorGFgw~AmcdnacYFcAhCkpiSYd7q2ARrHjgqYA7WUYFYWmAe1NVrurb0IpuToYKT3KvaXYX");
             LoadApplication(new Puratos_UI.App());
         }
     }

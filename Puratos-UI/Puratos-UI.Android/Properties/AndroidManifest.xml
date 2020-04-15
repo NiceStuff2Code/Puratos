@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.puratos_ui">
+    <!--ACCESS_COARSE_LOCATION: permission to use WiFi or mobile data or both-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--ACCES_FINE_LOCATION: use Global Positioning System (GPS), WiFi or mobile data -> locatie bepalen-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
-    <application android:label="Puratos_UI.Android"></application>
+    <application android:label="Puratos_UI.Android">
+      
+      <!-- Tags for google maps V2 API key-->
+      <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBmWhVpRF_xdkvQdI5lTgzMXvh4FlEzByM" />
+      <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+      <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+      <!--if app target api 28 or higher-->
+      <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    </application>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>

@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Puratos_Domain
+{
+    //helip class for ListView in ....Page.xaml
+    public class Product
+    {
+        //product properties
+        public string NaamProduct { get; set; }
+        public double PrijsProduct { get; set; }
+        public string AfbeeldingLink { get; set; }
+
+        //default constructor
+        public Product()
+        {
+
+        }
+
+        //de listview gaat deze methode oproepen waneer dit object wordt getoond bij een collection (List)
+        public override string ToString()
+        {
+            return NaamProduct;
+        }
+    }
+}
