@@ -4,13 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Puratos_UI.Service">
+             x:Class="Puratos_UI.Service"
+            BackgroundColor="#edd78e">
+    
     <ContentPage.Content>
         <Grid>
             <StackLayout>
-                <Image Source="https://www.legendre.be/wp-content/uploads/2019/06/puratos.png" />
+                <Image Source="Puratos.png" />
                 <!-- link van foto hierboven moet in de plaats komen dan hieronder -->
-                <Label Text="Puratos foto" TextColor="Orange" FontSize="50" HorizontalTextAlignment="Center"/>
+                
 
                 <Label Text="Contact us" FontSize="30" TextColor="Black" TextDecorations="Underline"/>
                 <Label Text="TEL: +32 2 481 44 44" FontSize="20" TextColor="#ED9519"/>
