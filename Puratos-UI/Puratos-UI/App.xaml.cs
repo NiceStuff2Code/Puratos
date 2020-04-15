@@ -10,10 +10,12 @@ namespace Puratos_UI
         public App()
         {
             InitializeComponent();
-            
+
             //NavigationPage.SetHasNavigationBar(this, false);
-            MainPage = new NavigationPage(new MainPage());
-            
+            MainPage = new NavigationPage(new MainPage()) {
+                BarBackgroundColor = Color.Orange
+                
+            };            
         }
 
         protected override void OnStart()
