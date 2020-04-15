@@ -4,13 +4,37 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Puratos_UI.MainPage">
+             x:Class="Puratos_UI.MainPage"
+             BackgroundColor="#f5cb42">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Hallo" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout Margin="20">
+        <!--De witte rand is niet te zien, kheb de afbeelding toegevoegd manueel aan android en IOS, kga jullie later sturen hoe je dit kan doen...-->
+        <Image Source="Puratos.png" HeightRequest="{OnPlatform iOS=90, Android=60}" Margin="0"/>
+        <Grid>
+            <!--de rijen en kolommen maken voor de buttons-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*" />
+                <ColumnDefinition Width="0.5*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <!--VRAAGJE: zou ik de emoji een 'enter doet dat die emoji onder de tekst komt dan kunnen we bvb die 
+            emoji een bepaalde kleur en groote geven als je dat zou willen?-->
+            <Button x:Name="btnProducten" Text="Producten 🍫" BackgroundColor="#ED9519" 
+                    WidthRequest="190" HeightRequest="250" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0"/>
+            <Button x:Name="btnLocatie" Text="Locatie 📍" BackgroundColor="#FFF0C855" WidthRequest="190" HeightRequest="250"
+                    HorizontalOptions="Start" Grid.Column="0" Grid.Row="1"/>
+
+            <Button x:Name="btnBestellingen" Text="Bestellingen 👛" HorizontalOptions="End" VerticalOptions="Start"  
+                    BackgroundColor="#F0C855" WidthRequest="190" HeightRequest="250"
+                    Grid.Column="1" Grid.Row="0"/>
+            <Button x:Name="btnService" Text="Service ✆" HorizontalOptions="End" VerticalOptions="End"  BackgroundColor="#FFED9519"
+                    WidthRequest="190" HeightRequest="250" Grid.Column="1" Grid.Row="1"/>
+        </Grid>
+        <Label Text="Made by Ines Baba, Mathias Bolle and Noa Hermé" FontSize="Subtitle" TextColor="Gray" VerticalOptions="EndAndExpand" />
     </StackLayout>
 
 </ContentPage>
