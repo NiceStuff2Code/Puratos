@@ -20,3 +20,7 @@ bij de business laag hebben we gebruik kunnen maken door
 using Xamarin.Forms.Maps; //Google Maps API specific code
 ```
 aan de code toe te voegen.
+
+
+### Licentie
+de licentie kan je terugvinden in license.dm
