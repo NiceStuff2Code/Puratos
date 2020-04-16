@@ -17,5 +17,25 @@ namespace Puratos_UI
         {
             InitializeComponent();
         }
+
+        private void btnProducten_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLocatie_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBestellingen_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnService_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
