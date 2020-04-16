@@ -22,4 +22,10 @@
   <ItemGroup>
     <Folder Include="resultaat XAML\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ProductenPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
