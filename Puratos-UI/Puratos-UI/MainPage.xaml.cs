@@ -29,7 +29,8 @@ namespace Puratos_UI
         //methode die aangeroepen/uitgevoerd wordt als er op de knop product wordt Locatie.
         private void btnLocatie_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Locatie());
+            Navigation.PushAsync(new LocatiePage());
+            
         }
 
         //methode die aangeroepen/uitgevoerd wordt als er op de knop Bestellen wordt geklikt.

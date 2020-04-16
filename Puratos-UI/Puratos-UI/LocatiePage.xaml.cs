@@ -6,14 +6,20 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Puratos_Domain;
+using Xamarin.Forms.Maps;
 
 namespace Puratos_UI
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Locatie : ContentPage
+    public partial class LocatiePage : ContentPage
     {
-        public Locatie()
+        public LocatiePage()
         {
+            Location locatie = new Location();
+
+            locatie.setMap(mapPuratos);
+            
             InitializeComponent();
         }
     }

@@ -61,5 +61,10 @@ namespace Puratos_Domain
         {
             return _map;
         }
+
+        public void setMap(Map map)
+        {
+            this._map = map;
+        }
     }
 }
