@@ -6,8 +6,7 @@
              mc:Ignorable="d"
              x:Class="Puratos_UI.LocatiePage"
              BackgroundColor="#edd78e">
-    
-    
+
     <ContentPage.Content>
         <!--bij locatie gaan we gebruik maken van Xamarin.Forms.maps da we pas gaan kunnen doen als alle layout af is omda da ook met C# is wa ik deels in business heb gdn...-->
         <Grid>
