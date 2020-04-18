@@ -11,28 +11,48 @@
 
             <Image Source="Puratos.png" HeightRequest="{OnPlatform iOS=90, Android=60}" Margin="0"/>
 
-            <ListView ItemsSource="{Binding productList}">
+            <ListView ItemsSource="{Binding productList}"
+                      x:Name="listViewProduct"
+                      HasUnevenRows="True"
+                      ItemTapped="listViewProduct_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="0.5*" />
-                                    <ColumnDefinition Width="0.5*" />
-                                </Grid.ColumnDefinitions>
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="auto" />
-                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
                                 </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
 
-                                <ImageButton Source="{Binding }"></ImageButton>
-                                
+                                <Image Grid.RowSpan="2"
+                                       Source="{Binding AfbeeldingLink}"
+                                       Aspect="AspectFill"
+                                       HeightRequest="60"
+                                       WidthRequest="60" />
+                                <Label Grid.Column="1"
+                                       Text="{Binding NaamProduct}"
+                                       FontAttributes="Bold" />
+                                <Label Grid.Row="1"
+                                       Grid.Column="1" >
+                                       <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{Binding PrijsProduct}" />
+                                        <Span Text=" EUR" />
+                                    </FormattedString>       
+                                    </Label.FormattedText>
+                                </Label>
+
+
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-                
-                
+
+
             </ListView>
         </StackLayout>
     </ContentPage.Content>

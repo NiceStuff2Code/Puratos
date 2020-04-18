@@ -11,6 +11,7 @@ namespace Puratos_Domain
         public string NaamProduct { get; set; }
         public double PrijsProduct { get; set; }
         public string AfbeeldingLink { get; set; }
+        //public string ProductBeschrijving { }
 
         //default constructor
         public Product()

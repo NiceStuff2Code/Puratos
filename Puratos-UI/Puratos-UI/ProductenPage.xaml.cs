@@ -29,9 +29,14 @@ namespace Puratos_UI
             productList.Add(new Product("Deli", 0.0d,
                 "https://www.puratos.fr/content/dam/france/images/packshot/p%C3%A2tisserie/fourrages/4101812%20DELI%20SPECULOOS.png/jcr:content/renditions/cq5dam.web.800.800.png"));
             productList.Add(new Product("chcolaté", 0.0d,
-                "https://www.puratos.fr/content/dam/france/images/packshot/p%C3%A2tisserie/fourrages/4101812%20DELI%20SPECULOOS.png/jcr:content/renditions/cq5dam.web.800.800.png"));
+                "https://santoantonio.ciaimg.com.br/Assets/Produtos/SuperZoom/85275---Chocolate-Ao-Leite-Chocolante---Moedas-201kg-PURATOS.jpg?v=eca54ae8-1"));
 
             BindingContext = this;
+        }
+
+        private void listViewProduct_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+
         }
     }
 }
