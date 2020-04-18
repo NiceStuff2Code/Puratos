@@ -30,7 +30,7 @@ namespace Puratos_UI
         private void btnLocatie_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LocatiePage());
-            
+
         }
 
         //methode die aangeroepen/uitgevoerd wordt als er op de knop Bestellen wordt geklikt.
@@ -42,27 +42,9 @@ namespace Puratos_UI
         //methode die aangeroepen/uitgevoerd wordt als er op de knop Service wordt geklikt.
         private void btnService_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Service());
+            Navigation.PushAsync(new ServicePage());
         }
 
-        private void btnProducten_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLocatie_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnBestellingen_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnService_Clicked(object sender, EventArgs e)
-        {
-
-        }
+    
     }
 }

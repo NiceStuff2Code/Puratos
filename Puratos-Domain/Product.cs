@@ -18,6 +18,13 @@ namespace Puratos_Domain
 
         }
 
+        public Product(string naamProduct, double PrijsProduct, string afbeelding)
+        {
+            this.NaamProduct = naamProduct;
+            this.PrijsProduct = PrijsProduct;
+            this.AfbeeldingLink = afbeelding;
+        }
+
         //de listview gaat deze methode oproepen waneer dit object wordt getoond bij een collection (List)
         public override string ToString()
         {
