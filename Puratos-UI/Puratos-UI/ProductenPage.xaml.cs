@@ -11,11 +11,11 @@ using Puratos_Domain; //using business layer
 namespace Puratos_UI
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Producten : ContentPage
+    public partial class ProductenPage : ContentPage
     {
-        public List<Product> productList { get; private set; } //list ~ collection
+        public static List<Product> productList { get; private set; } //list ~ collection
 
-        public Producten()
+        public ProductenPage()
         {
             InitializeComponent();
 

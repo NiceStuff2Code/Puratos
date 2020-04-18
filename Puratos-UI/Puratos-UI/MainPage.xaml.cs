@@ -23,7 +23,7 @@ namespace Puratos_UI
         //methode die aangeroepen/uitgevoerd wordt als er op de knop product wordt geklikt.
         private void btnProducten_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Producten());
+            Navigation.PushAsync(new ProductenPage());
         }
 
         //methode die aangeroepen/uitgevoerd wordt als er op de knop product wordt Locatie.

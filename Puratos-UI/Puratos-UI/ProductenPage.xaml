@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Puratos_UI.Producten">
+             x:Class="Puratos_UI.ProductenPage">
     <ContentPage.Content>
         <StackLayout Margin="20">
             <!--ik denk da we scrollview gaan moeten gebruiken-->
