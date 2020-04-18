@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Puratos_UI
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ServicePage : ContentPage
+    public partial class LocatiePage : ContentPage
     {
-        public ServicePage()
+        public LocatiePage()
         {
             InitializeComponent();
         }

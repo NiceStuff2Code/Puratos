@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Puratos_UI.ProductenPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20"> <!--ik denk da we scrollview gaan moeten gebruiken-->
+      
+            <Image Source="Puratos.png" HeightRequest="{OnPlatform iOS=90, Android=60}" Margin="0"/>
+            <Grid> <!--of hier scrollview, ik denk meer hier-->
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <!--Ik heb steeds verschillende linken geplaatst van fotos voor het u makkelijker te maken-->
+                
+                <Button x:Name="btnS500" Text="S500" BackgroundColor="#ED9519" 
+                    WidthRequest="190" HeightRequest="250" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0"
+                    Clicked="btnS500_Clicked"/>
+                <!--https://boulangerie-bakery.com/wp-content/uploads/2020/03/Pack-4014311-Sac-Puratos-S500-Special-CL-1140x1489.png-->
+                
+                <Button x:Name="btnCremyvit" Text="Cremyvit" BackgroundColor="#FFF0C855" WidthRequest="190" HeightRequest="250"
+                    HorizontalOptions="Start" Grid.Column="0" Grid.Row="1"
+                    Clicked="btnCremyvit_Clicked"/>
+                <!--https://www.papyrus.co.ke/wp-content/uploads/2019/03/creamyvit-classic-1200x960.jpg--!>
+
+                <Button x:Name="btnDeli" Text="Deli" HorizontalOptions="End" VerticalOptions="Start"  
+                    BackgroundColor="#F0C855" WidthRequest="190" HeightRequest="250"
+                    Grid.Column="1" Grid.Row="0"
+                    Clicked="btnDeli_Clicked"/>
+                <!--https://www.puratos.fr/content/dam/france/images/packshot/p%C3%A2tisserie/fourrages/4101812%20DELI%20SPECULOOS.png/jcr:content/renditions/cq5dam.web.800.800.png-->
+
+                <Button x:Name="btnChocolanté" Text="Chocolanté" HorizontalOptions="End" VerticalOptions="End"  BackgroundColor="#FFED9519"
+                    WidthRequest="190" HeightRequest="250" Grid.Column="1" Grid.Row="1"
+                    Clicked="btnChocolanté_Clicked"/>
+                <!--https://santoantonio.ciaimg.com.br/Assets/Produtos/SuperZoom/85275---Chocolate-Ao-Leite-Chocolante---Moedas-201kg-PURATOS.jpg?v=eca54ae8-1-->
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
