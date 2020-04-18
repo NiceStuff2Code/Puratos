@@ -27,6 +27,9 @@
     <Compile Update="ProductenPage.xaml.cs">
       <DependentUpon>ProductenPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="ProductOverzicht.xaml.cs">
+      <DependentUpon>ProductOverzicht.xaml</DependentUpon>
+    </Compile>
     <Compile Update="ServicePage.xaml.cs">
       <DependentUpon>ServicePage.xaml</DependentUpon>
     </Compile>
@@ -34,6 +37,9 @@
 
   <ItemGroup>
     <EmbeddedResource Update="ProductenPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ProductOverzicht.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

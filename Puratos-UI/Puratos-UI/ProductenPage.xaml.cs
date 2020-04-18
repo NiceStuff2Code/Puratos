@@ -34,9 +34,10 @@ namespace Puratos_UI
             BindingContext = this;
         }
 
+        //wanneer een item is geklikt. 
         private void listViewProduct_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-
+            Navigation.PushAsync(new ProductOverzicht());
         }
     }
 }
