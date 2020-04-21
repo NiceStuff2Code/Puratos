@@ -38,21 +38,17 @@
                                        FontAttributes="Bold" />
                                 <Label Grid.Row="1"
                                        Grid.Column="1" >
-                                       <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="{Binding PrijsProduct}" />
-                                        <Span Text=" EUR" />
-                                    </FormattedString>       
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding PrijsProduct}" />
+                                            <Span Text=" EUR" />
+                                        </FormattedString>
                                     </Label.FormattedText>
                                 </Label>
-
-
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-
-
             </ListView>
         </StackLayout>
     </ContentPage.Content>

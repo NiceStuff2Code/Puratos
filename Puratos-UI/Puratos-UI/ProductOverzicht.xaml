@@ -6,10 +6,23 @@
              mc:Ignorable="d"
              x:Class="Puratos_UI.ProductOverzicht">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="hier komt dan het product"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout> 
+            <Label Text="S500 sense: Product description: *S500 sense is the best performing range of improvers on the market, also exist in Clean(er) lavel
+                                                          *It offers bakers absolute peace of mind for their fresh breads
+                                                          *Outstanding dough tolerance and bread volume" />
+            <!--Sense met een s! kweet daje vorige keer verkeerd was en met een c had geschreven-->
+            <Label Text="Cremyvit: Product description: *A complete cold preparation mix for the perfect custard cream
+                                                        *Rich, milky taste
+                                                        *Easy to use and quick to prepare"/>
+            <!--Je schreef Crimpyvit in plaats dan crEmpyvit let op-->
+            <Label Text="Deli: Product description: *A premium quality range of rich cream filling preparations with a premium taste.
+                                                    *Made of the finest and most nobel ingredients (like milk, eggs, better)
+                                                    *Inspired by an authentic and timeless recipe."/>
+            <!--Je schreef dell in plaat dan Deli met en i van ines is de beste-->
+            <Label Text="Chocolanté: Product description:*Real chocolate made from the finest cocoa beans
+                                                        *adapted to suit any local tastes and requirements"/>
+            <!--Je schreef weer fout haha wss te snel getypt het in Chocolanté!!-->
+            <!--titel "product discription en de rest als opsomming voor alles pls en verbeter alle fouten in lijst van producten ook want da belangrijk-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -19,11 +19,10 @@
                 <Label Text="FAX: +32 2 466 25 81" FontSize="20" TextColor="#FFF0C855"/>
                 <Label Text="E-MAIL: info@puratos.com" FontSize="20" TextColor="#ED9519"/>
 
-
+                <!--Hier was het slimmer om alle landen nummers zetten toch?-->
                 <WebView Source="https://www.puratos.com/contact-us"/>
             </StackLayout>
         </Grid>
-        <!-- Als pagina achtergrond wou ik paard van Puratos zetten maar da ga ni er is een probleem met images -->
-        <!--Ik heb echt geen inspiratie meer haha sorry-->
+      
     </ContentPage.Content>
 </ContentPage>

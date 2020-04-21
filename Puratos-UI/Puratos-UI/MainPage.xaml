@@ -7,11 +7,9 @@
              x:Class="Puratos_UI.MainPage">
 
     <StackLayout Margin="20">
-        <!--Ines: Foto van puratos logo boven zo dawe zien da het puratos is lol-->
-        <!--De witte rand is niet te zien, kheb de afbeelding toegevoegd manueel aan android en IOS, kga jullie later sturen hoe je dit kan doen...-->
+     
         <Image Source="Puratos.png" HeightRequest="{OnPlatform iOS=90, Android=60}" Margin="0"/>
         <Grid>
-            <!--de rijen en kolommen maken voor de buttons-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.5*" />
                 <ColumnDefinition Width="0.5*" />
@@ -21,8 +19,7 @@
                 <RowDefinition Height="auto" />
             </Grid.RowDefinitions>
 
-            <!--VRAAGJE: zou ik de emoji een 'enter doet dat die emoji onder de tekst komt dan kunnen we bvb die 
-            emoji een bepaalde kleur en groote geven als je dat zou willen?-->
+            <!--Ik laat u zo die tekens groter maken-->
             
             <Button x:Name="btnProducten" Text="Producten 🍫" BackgroundColor="#ED9519" 
                     WidthRequest="190" HeightRequest="250" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0"
@@ -39,7 +36,8 @@
                     WidthRequest="190" HeightRequest="250" Grid.Column="1" Grid.Row="1"
                     Clicked="btnService_Clicked"/>
         </Grid>
-        <Label Text="Made by Ines Baba, Mathias Bolle and Noa Hermé" FontSize="Subtitle" TextColor="Gray" VerticalOptions="EndAndExpand" />
+        <Label Text="Made by Ines Baba and Mathias Bolle" FontSize="Subtitle" TextColor="Gray" VerticalOptions="EndAndExpand" />
+        <!--kheb noa haar naam weg gedaan--!>
     </StackLayout>
 
 </ContentPage>
