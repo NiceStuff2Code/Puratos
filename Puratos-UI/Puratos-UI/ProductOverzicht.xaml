@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Puratos_UI.ProductOverzicht">
     <ContentPage.Content>
-        <StackLayout> 
+        <StackLayout>
             <Label Text="S500 sense: Product description: *S500 sense is the best performing range of improvers on the market, also exist in Clean(er) lavel
                                                           *It offers bakers absolute peace of mind for their fresh breads
                                                           *Outstanding dough tolerance and bread volume" />
